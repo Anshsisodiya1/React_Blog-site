@@ -175,7 +175,7 @@ const Home = () => {
               ))}
           {/* Advertisement Section */}
           <div className="advertisement-container">
-            <Advertisenment Advisible={2} /> {/* Show first 5 advertisements */}
+            <Advertisenment Advisible={2} /> 
           </div>
             </div>
           </div>

@@ -26,7 +26,59 @@
   100% {background-position: 0% 100%, 100% 100%, 200% 100%}
 }
 
+
+/* Card layout */
+.second-container {
+  margin-top: 30px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin: 20px 20px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.card:hover .card-description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
 /* Bollywood Section */
+.BollyMainMovie-left{
+  margin: 20px;
+  height: 248px;
+  transform: translateY(-5px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
 .Bollywoodmain {
   display: flex;
   flex-direction: row;
@@ -48,6 +100,8 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin: 15px;
+  
 }
 
 .BollyMainMovie {
@@ -70,17 +124,19 @@
 }
 
 .BollyMainimg {
-  width: 20rem;
-  height: 200px;
+  width: 25rem;
+  height: 108%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   object-fit: cover;
   transition: transform 0.3s ease;
+  border-radius: 10px
 }
+
 
 .Bollyrightimg {
   width: 12rem;
-  height: 100px;
+  height: 110px;
   background-position: center;
   background-size: cover;
   object-fit: cover;
@@ -93,6 +149,7 @@
 
 .rightbollypost {
   display: flex;
+  height: 110px;
 }
 
 a {
@@ -105,7 +162,7 @@ a {
   padding: 10px;
   color: #333;
   text-align: center;
-  width: 89%;
+  width: 100%;
 }
 
 .description {
@@ -114,12 +171,6 @@ a {
   text-align: center;
   width: 89%;
 }
-.BollyMainMovie-left{
-  height: 250px;
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
-}
 /* Advertisement Section */
 .Advertisement {
   margin-top: 20px;
@@ -127,6 +178,10 @@ a {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
+}
+
+.Advertisement h1{
+  text-align: center;
 }
 
 .ad-item {
@@ -139,18 +194,12 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.ad-image {
-  width: 80px;
-  height: 80px;
-  border-radius: 5px;
-  margin-right: 10px;
-  object-fit: cover;
-}
 
-.ad-description {
-  font-size: 0.9rem;
-  color: #333;
-  margin: 0;
+.comp-add{
+  width: 100%;
+  height: 50vh;
+  border-radius: 5px;
+  object-fit: cover;
 }
 
 /* Responsive Styles */
