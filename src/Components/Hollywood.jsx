@@ -116,7 +116,7 @@ const Bollywood = () => {
                 ))}
               </div>
               {visible < hollyMovies.length && (
-                <button onClick={handleLoad}>Load More</button>
+                <button onClick={handleLoad} className="Load-more-btn">Load More</button>
               )}
             </div>
 

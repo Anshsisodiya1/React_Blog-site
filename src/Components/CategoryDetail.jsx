@@ -37,35 +37,40 @@ const CategoryDetail = () => {
 
             <div className="personalintro">
               <div className="namedate">
+                <div className="person-img"></div>
                 <h3>Ansh Sisodiya</h3>
                 <h4>1 November 2024</h4>
               </div>
               <div className="socialmedia">
-                <div className="like-button" onClick={handleLike}>
-                  <img
-                    src={isLiked ? "liked-icon.png" : "like-icon.png"}
-                    alt="like"
-                    className={`like-icon ${isLiked ? "liked" : ""}`}
-                  />
+                <div className="icon-group">
                 </div>
-                <div className="twitter">
-                  <img src="twitter-icon.png" alt="Twitter" />
-                </div>
-                <div className="facebook">
-                  <img src="facebook-icon.png" alt="Facebook" />
-                </div>
-                <div className="YouTube">
-                  <img src="youtube-icon.png" alt="YouTube" />
-                </div>
-                <div className="instagram">
-                  <img src="instagram-icon.png" alt="Instagram" />
-                </div>
+                <div className="twitter"></div>
+                <div className="facebook"></div>
+                <div className="YouTube"></div>
+                <div className="instagram"></div>
               </div>
             </div>
 
             <img className="Detailsimg" src={post.img_url} alt={post.title} />
             <p className="DetailsDescription">{post.description}</p>
           </div>
+                  <div className="like-button" onClick={handleLike}>
+                    <img
+                      src={isLiked ? "liked-icon.png" : "like-icon.png"}
+                      alt="like"
+                      className={`like-icon ${isLiked ? "liked" : ""}`}
+                    />
+                  </div>
+                  <div className="share-button">
+                    <img src="share-icon.png" alt="share" className="share-icon" />
+                  </div>
+        <div className="personalintro">
+              <div className="namedate">
+                <div className="person-img"></div>
+                <h3>Ansh Sisodiya</h3>
+                <h4>1 November 2024</h4>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -77,7 +82,9 @@ const CategoryDetail = () => {
             <div key={index} className="card">
               <img src={item.img_url} className="card-image" alt={item.title} />
               <div className="card-description">
-                <p className="overlay-text">{item.description.substring(0, 50)}...</p>
+                <p className="overlay-text">
+                  {item.description.substring(0, 50)}...
+                </p>
               </div>
             </div>
           ))}

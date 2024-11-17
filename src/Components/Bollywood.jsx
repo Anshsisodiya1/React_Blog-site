@@ -106,7 +106,7 @@ const Bollywood = () => {
                       <div className="bdes">
                         <h3 className="Title">{item.title}</h3>
                         <p className="description">
-                          {item.description.split(" ").slice(0, 65).join(" ") + "..."}
+                          {item.description.split(" ").slice(0, 60).join(" ") + "..."}
                         </p>
                       </div>
                     </Link>
@@ -114,7 +114,7 @@ const Bollywood = () => {
                 ))}
               </div>
               {visible < bollyMovies.length && (
-                <button onClick={handleLoad}>Load More</button>
+                <button onClick={handleLoad} className="Load-more-btn">Load More</button>
               )}
             </div>
 
