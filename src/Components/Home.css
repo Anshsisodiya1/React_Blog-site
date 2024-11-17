@@ -100,9 +100,9 @@
     transform: translateY(0);
   }
   
-  .card:hover {
+   .card:hover {
     transform: scale(1.05);
-  }
+  } 
   
   /* Top posts section */
   .top-posts {

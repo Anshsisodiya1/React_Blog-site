@@ -2,23 +2,20 @@ import React, { useContext, useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import DataContext from "../DataContext";
 import { Link } from "react-router-dom";
-import Advertisenment from "./Advertisenment"; // Import Advertisement component
+import Advertisenment from "./Advertisenment"; 
 import "./Home.css";
 import Footer from "./Footer";
 
 const Home = () => {
   const data = useContext(DataContext);
 
-  // Filter Bollywood movies
   const bollyMovies = data.filter((item) => item.category === "Bollywood");
 
-  // Array of selected IDs for random images/cards
   const selectedArray = [
     1, 2, 3, 8, 13, 15, 16, 17, 18, 22, 23, 24, 25, 26, 27, 45, 51, 53, 62, 65,
     67, 69, 70, 73, 75, 76, 77, 83, 84,
   ];
 
-  // Function to get a random image from selectedArray
   const getRandomImage = () => {
     const randomId =
       selectedArray[Math.floor(Math.random() * selectedArray.length)];
@@ -52,9 +49,7 @@ const Home = () => {
       ) : (
         <>
           <Navbar />
-          {/* Main Container */}
           <div className="main-container">
-            <Link to="/detail">
               <div className="header-container">
                 <div
                   className="box box1"
@@ -81,7 +76,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </Link>
+
           </div>
 
           {/* Second Container */}

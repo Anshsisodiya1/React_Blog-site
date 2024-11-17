@@ -19,7 +19,7 @@ const CompAdd = () => {
 
   return (
     <div className="Advertisement">
-      <h1>Advertisements</h1>
+      <h1>Advertisement</h1>
       {addddata.slice(0, 1).map((ad) => (
         <AdItem
           key={ad.id}

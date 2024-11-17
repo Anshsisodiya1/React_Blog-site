@@ -51,7 +51,7 @@ const Fitness = () => {
       ) : (
         <>
         <div className="second-container">
-            <h1>The Latest</h1>
+        <h1>Top Stories</h1>
             <div className="card-grid">
               <div
                 className="card"

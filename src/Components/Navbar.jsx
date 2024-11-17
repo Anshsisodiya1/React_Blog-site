@@ -54,9 +54,9 @@ const Navbar = () => {
           </ul>
 
           <div className="hamburger">
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
+           <span className="bar"></span>
+           <span className="bar"></span>
+           <span className="bar"></span>
           </div>
         </nav>
       </div>

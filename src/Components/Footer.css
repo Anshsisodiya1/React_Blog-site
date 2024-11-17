@@ -25,6 +25,10 @@
   color: teal;
 }
 
+.icon{
+  writing-mode: vertical-rl;
+}
+
 .about .blog-name .icon {
   display: inline-block;
   background-color: black;
@@ -79,8 +83,28 @@
 .message-text {
   font-size: 1.1em;
   font-weight: bold;
-  color: #1a73e8;
+  animation: textColorChange 3s infinite alternate; /* Apply animation */
 }
+
+/* Keyframes for text color transition */
+@keyframes textColorChange {
+  0% {
+      color: #ff6f61; /* Light red */
+  }
+  25% {
+      color: #ffa500; /* Orange */
+  }
+  50% {
+      color: #32cd32; /* Green */
+  }
+  75% {
+      color: #1e90ff; /* Blue */
+  }
+  100% {
+      color: #6a5acd; /* Purple */
+  }
+}
+
 
 .back-to-top {
   display: inline-block;

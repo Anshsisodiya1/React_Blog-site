@@ -18,7 +18,6 @@ const CategoryDetail = () => {
   const otherPosts = data.filter((item) => item.id !== parseInt(id));
   const randomPosts = otherPosts.sort(() => 0.5 - Math.random()).slice(0, 3);
 
-  // Toggle like state
   const handleLike = () => {
     setIsLiked((prev) => !prev);
   };
@@ -29,7 +28,6 @@ const CategoryDetail = () => {
       <div className="detailsParMain">
         <div className="detailschildmain">
           <button className="BackButton" onClick={() => navigate(-1)}>
-            <div className="BackEroImg"></div>
             Go Back
           </button>
           <div className="MainDetails">
@@ -42,35 +40,20 @@ const CategoryDetail = () => {
                 <h4>1 November 2024</h4>
               </div>
               <div className="socialmedia">
-                <div className="icon-group">
-                </div>
-                <div className="twitter"></div>
-                <div className="facebook"></div>
-                <div className="YouTube"></div>
-                <div className="instagram"></div>
+                <div className="twitter" title="Twitter"></div>
+                <div className="facebook" title="Facebook"></div>
+                <div className="YouTube" title="YouTube"></div>
+                <div className="instagram" title="Instagram"></div>
               </div>
             </div>
 
             <img className="Detailsimg" src={post.img_url} alt={post.title} />
             <p className="DetailsDescription">{post.description}</p>
           </div>
-                  <div className="like-button" onClick={handleLike}>
-                    <img
-                      src={isLiked ? "liked-icon.png" : "like-icon.png"}
-                      alt="like"
-                      className={`like-icon ${isLiked ? "liked" : ""}`}
-                    />
-                  </div>
-                  <div className="share-button">
-                    <img src="share-icon.png" alt="share" className="share-icon" />
-                  </div>
-        <div className="personalintro">
-              <div className="namedate">
-                <div className="person-img"></div>
-                <h3>Ansh Sisodiya</h3>
-                <h4>1 November 2024</h4>
-              </div>
-            </div>
+          <div className="like-share-container">
+            <div className="like-button" onClick={handleLike}></div>
+            <div className="share-button"></div>
+          </div>
         </div>
       </div>
 

@@ -64,7 +64,7 @@ const Advertisenment = ({ Advisible }) => {
 
   return (
     <div className="Advertisement">
-      <h1>Advertisements</h1>
+      <h1>Advertisement</h1>
       {addddata.slice(0, Advisible).map((ad) => (
         <AdItem
           key={ad.id}
