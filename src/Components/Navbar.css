@@ -76,6 +76,7 @@ nav{
   flex-direction: column;
   cursor: pointer;
   gap: 4px;
+  background-image: url('./hamburger.png');
 }
 
 .hamburger .bar {
@@ -96,12 +97,14 @@ nav{
     position: absolute;
     top: 60px;
     right: 0;
-    background: linear-gradient(135deg, #ff4e50, #f9d423); /* Attractive gradient background */
+    /* background: linear-gradient(135deg, #ff4e50, #f9d423); Attractive gradient background */
+    background-color: white;
     width: 100%;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     z-index: 10; 
     padding: 20px 0;
+    /* color: #fff; */
   }
 
   .nav-menu.hamActive {
