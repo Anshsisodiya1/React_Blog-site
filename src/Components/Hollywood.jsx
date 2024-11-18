@@ -98,6 +98,7 @@ const Bollywood = () => {
                 {hollyMovies.slice(0, visible).map((item) => (
                   <div className="BollyMainMovie-left" key={item.id}>
                     <Link to={`/detail/${item.id}`} className="bollylink">
+                    <div className="correct">
                       <div className="bimg">
                         <img
                           src={item.img_url}
@@ -110,6 +111,7 @@ const Bollywood = () => {
                         <p className="description">
                           {item.description.split(" ").slice(0, 65).join(" ") + "..."}
                         </p>
+                      </div>
                       </div>
                     </Link>
                   </div>

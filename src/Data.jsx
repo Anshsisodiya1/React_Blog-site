@@ -464,7 +464,7 @@ const Data =
       {
         "id": 64,
         "title": "K.G.F: Chapter 2",
-        "img_url": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/de4f1f9bfb6e740459e7bd8da955aa0b70191e780c1f1347ce73248d3ceda8f4._RI_TTW_.jpg",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaW0g-oG1DPmFGcMusOSFhGNY5n8N97uNnhQ&s",
         "description": "After detailing the events in K.G.F: Chapter 1, Anand Ingalagi suffers a stroke and his son, Vijayendra Ingalagi takes over to narrate the rest of the story.Rocky kills heir apparent Virat and takes over the K.G.F, keeping Reena hostage to ensure the cooperation of Guru Pandian, Andrews and Rajendra Desai. But when Kamal protests and threatens to kill Rocky this angered Rocky and he shoots Kamal on the spot. After this, Rocky issues orders to start work in eight hidden mines, while Vanaram, who was captured by Rocky, decided to help him.",
         "rating": "8.3/10",
         "category": "Bollywood"
@@ -480,7 +480,7 @@ const Data =
       {
         "id": 66,
         "title": "Parmanu: The Story of Pokhran",
-        "img_url": "https://m.media-amazon.com/images/M/MV5BMjQ3OGU1ZGMtZWM5Ni00ZjUyLTliY2QtYjUwMWU0NDdkZWFmXkEyXkFqcGdeQXVyNjQ3ODkxMjE@._V1_.jpg",
+        "img_url": "https://akm-img-a-in.tosshub.com/aajtak/images/story/201805/parmanu_052218063114_1527187008_749x421.jpeg?size=948:533",
         "description": "In 1995, Ashwat Raina, an IAS officer from the Research and Analysis Wing, suggests the ministers perform a retaliatory nuclear test in response to the recent nuclear missile tests by China. However, he is ridiculed, and the PMO secretary Suresh Yadav tells him to keep the file of his plan brief. Ashwat submits the file along with a floppy containing the details, but Yadav submits a half-baked plan to the Prime Minister and ignores the floppy. ",
         "rating": "7.6/10",
         "category": "Bollywood"
@@ -488,7 +488,7 @@ const Data =
       {
         "id": 67,
         "title": "Bloody Daddy",
-        "img_url": "https://static-koimoi.akamaized.net/wp-content/new-galleries/2023/06/bloody-daddy-movie-review-002.jpg",
+        "img_url": "https://images.ottplay.com/images/bloody-daddy-trailer-112.jpg",
         "description": "Sumair Azad is an NCB officer, who along with his deputy Jagadish Prasad alias Jaggi in Gurugram bust down a drug deal, leading the drug lord Sikandar to kidnap Sumair's son Atharva in exchange for retrieving the bag of cocaine. With no other option left, Sumair agrees to retrieve the bag from the NCB headquarters, and bring it to his club for the exchange. Sumair's act of hiding the bag in the men's toilet is noticed by his assistant Aditi Rawat, who becomes suspicious. Thinking that Sumair is involved in drug smuggling, Aditi informs her superior Sameer Singh and begin to pursue Sumair, taking away the bag of cocaine from the toilet in the process.",
         "rating": "6.7/10",
         "category": "Bollywood"
@@ -496,7 +496,7 @@ const Data =
       {
         "id": 68,
         "title": "Shershaah",
-        "img_url": "https://img.onmanorama.com/content/dam/mm/en/entertainment/entertainment-news/images/2021/7/16/shershah-movie.jpg",
+        "img_url": "https://images.odishatv.in/uploadimage/library/16_9/16_9_2/Shershaah_1697631059.webp",
         "description": "ishal Batra delivers a Ted Talk on his brother Vikram narrating the story of his life.The young Vikram is playing cricket when he gets into a fight with elder teenage kids over a ball, revealing the fearless nature he later became known for. Vikram, watching the TV series Param Vir Chakra used to talk about his wish to join the Indian Army. His desire to join the army increases intensely as he grows up.",
         "rating": "8.3/10",
         "category": "Bollywood"
@@ -504,7 +504,7 @@ const Data =
       {
         "id": 69,
         "title": "Sanak",
-        "img_url": "https://assets-in.bmscdn.com/discovery-catalog/events/et00305316-srxwhzxpdz-landscape.jpg",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tQxfVaDu9JncI7gAcbVfuCx3Q5J0NAp1NA&s",
         "description": "Vivaan Ahuja, a skilled MMA trainer, learns that his wife Anshika Maitra's heart can stop at any time and an operation is required. The operation is successful. As Anshika recovers in the hospital, a terrorist group led by Saju Solanki attack the hospital to retrieve their illegal arms dealer and leader Ajay Pal Singh, who was actually responsible for the deaths of 18 INA soldiers due to his supply of faulty weapons and was moved to the hospital for emergency surgery after his pacemaker was tampered in prison. ",
         "rating": "6.7/10",
         "category": "Bollywood"
@@ -520,7 +520,7 @@ const Data =
       {
         "id": 71,
         "title": "Rocky Handsome",
-        "img_url": "https://m.media-amazon.com/images/M/MV5BNTEyMTMyZjYtZjM4MC00NDlhLWE5ZDctYmExZWQ3MmYzMmUxXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9kC4RGSp7gSyyHgyXc2x5bkD1osAlXiGGSA&s",
         "description": "Kabir Ahlawat lives a quiet life running a pawn shop in Goa, His next-door neighbor is Anna, a drug addict and bar dancer. She lives with her little daughter Naomi, who develops a nurturing relationship with Kabir. Meanwhile, ACP Dilip Sangodkar from the NCB is after Mantoo, a crime boss supported by brothers Kevin Ferriera and Luke Ferriera, who control a mass racket in organ harvesting and drug manufacturing with a professional assassin named Attila. ",
         "rating": "6.8/10",
         "category": "Bollywood"
@@ -528,7 +528,7 @@ const Data =
       {
         "id": 72,
         "title": "Ghazi Attack",
-        "img_url": "https://resizing.flixster.com/n0GLCr_a3KbUMq1OgQ_ditUzTAs=/fit-in/1152x864/v2/https://flxt.tmsimg.com/assets/p13826129_v_h9_aa.jpg",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVaVNOIEZANej2CCijCs0WzpZx6U60965Hfg&s",
         "description": "In November, 1971, India and Pakistan are on the verge of declaring war on each other, as a result of the refugee crisis precipitated by the Pakistan Army under Operation Searchlight. The Indian Navy and RAW decipher a secret code sent from Pakistan to East Pakistan (modern-day Bangladesh), relating to a possible attack on an Indian naval vessel. The Navy deduces that the target may be INS Vikrant, India's sole aircraft carrier. The top command dispatches the submarine S21, under the command of Captain Ranvijay Singh for recce missions.",
         "rating": "7.5/10",
         "category": "Bollywood"
@@ -544,7 +544,7 @@ const Data =
       {
         "id": 74,
         "title": "Chup: Revenge of the Artist",
-        "img_url": "https://images.news18.com/ibnlive/uploads/2022/09/chup-revenge-of-the-artist-16638281594x3.jpg",
+        "img_url": "https://i.ytimg.com/vi/urwbNJTcdFw/maxresdefault.jpg",
         "description": "In Mumbai, a film critic named Nitin Srivatsav is found dead at his residence, where IG Arvind Mathur is assigned to investigate the case. Arvind deduces that the killer mutilated Nitin's body with a surgical knife and drew a symbol on his forehead, which he is unable to decipher.",
         "rating": "7.6/10",
         "category": "Bollywood"
@@ -576,7 +576,7 @@ const Data =
       {
         "id": 78,
         "title": "Gangaajal",
-        "img_url": "https://m.media-amazon.com/images/M/MV5BMDc2YmJjZjQtMzk5ZC00YThiLThhYTktOGU4ZTNiYzg1YmM4XkEyXkFqcGdeQXVyMzQ5MzkwMDY@._V1_.jpg",
+        "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXxzKDvXBSUmmhGPUl9ypONcA-joJWsjVd4A&s",
         "description": "The Superintendent of Police (SP) Amit Kumar (Ajay Devgn) takes charge of Tejpur, which has a high crime rate. In the district, the police are controlled by the don and gangster Sadhu Yadav (Mohan Joshi) and his son Sunder Yadav (Yashpal Sharma). While travelling to the headquarters, Amit's car breaks down and he inspects the area. He observes professional laxity among police officials, crumbling infrastructure, outdated weaponry, lack of stationery and transport, and the dependence of officials on corrupt local contractors.",
         "rating": "7.8/10",
         "category": "Bollywood"

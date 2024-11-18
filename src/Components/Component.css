@@ -233,20 +233,28 @@ a {
     overflow: hidden;
     margin: 15px 0;
     padding: 0;
+    height: 500px;
   }
 
   .BollyMainimg {
     width: 100%;
-    height: auto;
+    height: auto; 
     object-fit: cover;
-    border-bottom: 1px solid #ddd; /* Optional divider between image and text */
+    border-bottom: 1px solid #ddd;
+  }
+
+  .correct{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    height: 200px;
   }
 
   .bdes {
     padding: 15px;
-    text-align: left;
     background: #fff;
   }
+
 
   .Title {
     font-size: 18px;
@@ -260,6 +268,16 @@ a {
     color: #555;
     line-height: 1.5;
     margin: 0;
+    margin-left: 17px;
+  }
+
+  .BollyMainMovie{
+    height: 190px;
+  }
+
+  .Bollyrightimg{
+      width: 100%;
+      object-fit: contain;
   }
 
 .ad-image {
